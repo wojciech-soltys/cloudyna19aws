@@ -41,7 +41,7 @@ cd app
 ```
 2. Clone the repository by executing:
 ```
-git clone https://github.com/PrzemekMalak/test-aws-workshops.git
+git clone https://github.com/cloudstateu/cloudyna19aws
 ```
 
 ## Task 3. Creating Amazon Elastic Container Registry repositories
