@@ -1,0 +1,17 @@
+{ 
+    "TableName": "<YOUR TABLE NAME>",
+    "Item": {
+        "booking_id": {
+                "S": "$context.requestId"
+                },
+            "hotel_name": {
+                "S": "$input.path('$.hotelName')"
+                },
+            "user_name": {
+                "S": "$input.path('$.userName')"
+            },
+            "message": {
+                "S": "$input.path('$.message')"
+            }
+    }
+}
